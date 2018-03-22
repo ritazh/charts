@@ -18,7 +18,7 @@ metadata:
     {{- end }}
 spec:
   rules:
-  - host: {{ .name }}
+  - host:
     http:
       paths:
         - path: {{ default "/" .path }}
